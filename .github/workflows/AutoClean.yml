@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  prune:
+  Clean:
     runs-on: ubuntu-latest
     timeout-minutes: 5     #The time for waiting timeout.(等待超时时间)
 
@@ -50,10 +50,9 @@ jobs:
           const ms_in_day = 86400000;
           const now = Date.now();
           const pages = 12;
-
-          // we don't want to prune old runs from test.yml
-          // because we track the duration of runs over time
-
+          
+          //填入需要清理的workflows文件。
+          //Fill in your workflows file which to be cleaned.
           const workflows = [
             'AutoWake.yml',
             'AutoClean.yml'
