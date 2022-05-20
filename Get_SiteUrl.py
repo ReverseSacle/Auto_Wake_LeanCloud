@@ -3,7 +3,7 @@ import sys
 import time
 
 
-urls = sys.argv[0]
+urls = sys.argv
 print(urls)
 req = requests.get(urls[0])
 print(urls[0])
