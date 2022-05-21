@@ -1,5 +1,5 @@
 # LeanCloud 流控监督定时任务(Github Action)
-[简体中文](https://github.com/ReverseSacle/Auto_Wake_LeanCloud/blob/main/README.md) | [English]()
+[简体中文](https://github.com/ReverseSacle/Auto_Wake_LeanCloud/blob/main/README.md) | [English](https://github.com/ReverseSacle/Auto_Wake_LeanCloud/blob/main/README_EN.md)
 
 # 需求条件
 + 具有一个名为`GITHUB_TOKEN`的Token令牌，需赋予`repo`，`admin:repo_hook` ，`workflow`的权限
