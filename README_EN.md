@@ -1,5 +1,5 @@
 # LeanCloud Flow Control monitoring scheduled Tasks(Github Action)
-[简体中文](https://github.com/ReverseSacle/Auto_Wake_LeanCloud/blob/main/README.md) | [English]()
+[简体中文](https://github.com/ReverseSacle/Auto_Wake_LeanCloud/blob/main/README.md) | [English](https://github.com/ReverseSacle/Auto_Wake_LeanCloud/blob/main/README_EN.md)
 
 # Requirements
 + You must have a Token with name  `GITHUB_TOKEN`，which have the right of `repo`，`admin:repo_hook` and `workflow`
