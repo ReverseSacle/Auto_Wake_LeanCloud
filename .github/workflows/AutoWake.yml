@@ -5,7 +5,7 @@ on:
     tags:
     - 'v*'
   schedule:
-    - cron: "*/15 0-16 * * *"
+    - cron: "*/19 0-15 * * *"
   workflow_dispatch: 
 
 
