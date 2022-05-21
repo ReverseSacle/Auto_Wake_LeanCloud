@@ -41,12 +41,12 @@ jobs:
             }
           }
 
-    - name: Clean runs older than 7 days
+    - name: Clean runs older than 3 days
       uses: actions/github-script@v4
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         script: |
-          const days_to_expiration = 4;
+          const days_to_expiration = 3;
           const ms_in_day = 86400000;
           const now = Date.now();
           const pages = 12;
