@@ -49,7 +49,7 @@ jobs:
           const days_to_expiration = 3;
           const ms_in_day = 86400000;
           const now = Date.now();
-          const pages = 12;
+          const pages = 10;
           
           //填入需要清理的workflows文件。
           //Fill in your workflows file which to be cleaned.
