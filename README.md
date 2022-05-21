@@ -7,8 +7,8 @@
 # 使用方法
 + Fork此仓库后，在此项目的设置中找到`secrets`
 + 之后，在其`Actions secrets`中添加一个名为`SITE`的secret(内容为LeanCloud评论后台地址)(一般形式：https://xxxxx.avosapps.us/)
-+ 最后在仓库的Actions查看执行是否正常
-+ 另外，若需手动开启`Auto Clean Commit`，可在Actions中点击`Run workflow`
++ 最后在仓库的Actions中查看执行是否正常
++ 另外，若需手动开启`Auto Clean Commit`，可在Actions中的对应action任务中点击`Run workflow`
 
 # 具体内容介绍
 ## Ⅰ.Get_SiteUrl.py
@@ -28,4 +28,4 @@
 
 # 参考
 + [Ching Chow](https://github.com/chingc)在[`Delete old workflow results`](https://github.community/t/delete-old-workflow-results/16152/2)问题中提供的清理方法
-+ [wq-h](https://github.com/wq-h)的[`WakeLeanCloud`](https://github.com/wq-h/WakeLeanCloud)仓库提供的Leancloud唤醒方法
++ [wq-h](https://github.com/wq-h)的[`WakeLeanCloud`](https://github.com/wq-h/WakeLeanCloud)仓库中提供的Leancloud唤醒方法
