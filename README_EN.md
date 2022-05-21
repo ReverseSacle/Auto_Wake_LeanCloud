@@ -17,7 +17,7 @@
 ## Ⅱ.AutoClean.yml
 + Actions File, For cleaning the commit created in the process of Action
 + The Default of Schedule Time is the stander of UTC, `01:00` in Tusday and wednesday(You could modify this by changing the value of `-cron` in AutoClean.yml file)
-+ The main subjects of cleaning are those commit which have been existed for 4 day(You could modify this by changing the `value of days_to_expiration`)
++ The main subjects of cleaning are those commit which have been existed for 3 day(You could modify this by changing the `value of days_to_expiration`)
 + The main page of cleaning is 12(You could modify this by changing the value of `pages`)
 + Supporting wake by youself
 
