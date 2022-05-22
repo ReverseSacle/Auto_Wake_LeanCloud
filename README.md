@@ -17,7 +17,7 @@
 ## Ⅱ.AutoClean.yml
 + Actions文件，用于清理Action执行过程中产生的commit
 + 执行时间默认为UTC标准(国际时间)，即北京时间周二和周五的凌晨1点(修改-cron元素，即可修改执行时间条件)
-+ 主要清理内容为已超过3天的commit(可通过修改days_to_expiration变量调控)
++ 主要清理内容为已超过3天的Action commit(可通过修改days_to_expiration变量调控)
 + 主要清理页数为10页(可通过修改pages变量调控)
 + 支持手动唤醒
 
