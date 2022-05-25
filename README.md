@@ -3,6 +3,7 @@
 
 # 需求条件
 + 具有一个名为`GITHUB_TOKEN`的Token令牌，需赋予`repo`，`admin:repo_hook` ，`workflow`的权限
++ Token令牌可在头像处点击`Setting`进入后再点击`Developer setting`，最后在`Personal access tokens`点击`Generate new token`即可创建
 
 # 使用方法
 + Fork此仓库后，在此项目的设置中找到`secrets`
