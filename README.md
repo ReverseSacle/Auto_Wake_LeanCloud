@@ -8,7 +8,7 @@
 # 使用方法
 + Fork此仓库后，在此项目的设置中找到`secrets`
 + 之后，在其`Actions secrets`中添加一个名为`SITE`的secret(内容为LeanCloud评论后台地址)(一般形式：https://xxxxx.avosapps.us/)
-+ 最后在仓库的Actions中查看执行是否正常
++ 最后在仓库的Actions中查看执行是否正常，并在LeanCloud云引擎处重新部署
 + 另外，若需手动开启`Auto Clean Commit`，可在Actions中的对应action任务中点击`Run workflow`
 
 # 具体内容介绍
