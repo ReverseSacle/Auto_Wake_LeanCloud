@@ -7,7 +7,7 @@
 # Quickly Start
 + Fork this repository and Find the `secrets` in the settings of repository
 + Then,Get in the `Actions secrets`,Add a secret with name `SITE` which content is the Production Environment Address of LeanCloud(just like https://xxxxx.avosapps.us/)
-+ The last,See whether normal in the Actions
++ The last,See whether normal in the Actions,and redeploy in the engine of LeanCloud
 + In addtion,if you want to switch on `Auto Clean Commit` by youself,you could click `Run workflow` in the corresponding action task of Actions
 
 # Detail
