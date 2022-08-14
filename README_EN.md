@@ -8,7 +8,7 @@
 + Fork this repository and Find the `secrets` in the settings of repository
 + Then,get in the `Actions secrets`,add a secret with name `SITE` which content is the Production Environment Address of LeanCloud
 + The last,see whether normal in the Actions,and redeploy in the engine of LeanCloud
-+ In addtion,if you want to switch on `Auto Clean Commit` by youself,you could click `Run workflow` in the corresponding action task of Actions
++ In addtion,if you want to switch on `Auto Clean Commit` by yourself,you could click `Run workflow` in the corresponding action task of Actions
 
 # Detail
 ## Ⅰ.Get_SiteUrl.py
