@@ -19,12 +19,12 @@
 + The default of schedule time is the stander of UTC, `01:00` in Tusday and wednesday(You could modify this by changing the value of `-cron` in AutoClean.yml file)
 + The main subjects of cleaning are those `action commit` which have been existed for 2 day(You could modify this by changing the `value of days_to_expiration`)
 + The main page of cleaning is 10(You could modify this by changing the value of `pages`)
-+ Supporting wake by youself
++ Supporting wake by yourself
 
 ## Ⅲ.AutoWake.yml
 + Actions File,for wake Leancloud engine caused by flow control
 + The defaut of schedule time is the stander of UTC, every day `0:00` to `15:00` (You could modify this by changing the value of `-cron` in AutoWake.yml file )
-+ Supporting wake by youself
++ Supporting wake by yourself
 
 
 # Reference
