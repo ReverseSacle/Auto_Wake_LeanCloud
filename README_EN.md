@@ -23,7 +23,7 @@
 
 ## Ⅲ.AutoWake.yml
 + Actions File,for wake Leancloud engine caused by flow control
-+ The defaut of schedule time is the stander of UTC, every day `0:00` to `15:00` (You could modify this by changing the value of `-cron` in AutoWake.yml file )
++ The defaut of schedule time is the stander of UTC, every day `0:00` to `15:00` , runs every 16 minutes(You could modify this by changing the value of `-cron` in AutoWake.yml file )
 + Supporting wake by yourself
 
 
