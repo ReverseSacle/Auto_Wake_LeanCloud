@@ -27,7 +27,7 @@ jobs:
         $CONFIG_SITE: ${{ secrets.Site }} # 读取评论后台地址
       run: | 
         python Get_SiteUrl.py ${{ secrets.Site }}
-        echo "date + '%Y-%m-%d %H:%M:%S'" begin >> time.log
+        echo "{data}={date + '%Y-%m-%d %H:%M:%S'}" begin > time.log
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
